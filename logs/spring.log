@@ -1,0 +1,120 @@
+2023-02-08 17:58:05 [main] INFO  c.l.SpringBootLog.LogApplication - Starting LogApplication using Java 19.0.1 with PID 3608 (C:\Users\hp\Downloads\SpringBootLog\target\classes started by hp in C:\Users\hp\Downloads\SpringBootLog)
+2023-02-08 17:58:05 [main] INFO  c.l.SpringBootLog.LogApplication - No active profile set, falling back to 1 default profile: "default"
+2023-02-08 17:58:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-08 17:58:07 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-08 17:58:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-08 17:58:07 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-08 17:58:07 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1827 ms
+2023-02-08 17:58:08 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-02-08 17:58:08 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-02-08 17:58:08 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-02-08 17:58:08 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-02-08 17:59:03 [main] INFO  c.l.SpringBootLog.LogApplication - Starting LogApplication using Java 19.0.1 with PID 9232 (C:\Users\hp\Downloads\SpringBootLog\target\classes started by hp in C:\Users\hp\Downloads\SpringBootLog)
+2023-02-08 17:59:03 [main] INFO  c.l.SpringBootLog.LogApplication - No active profile set, falling back to 1 default profile: "default"
+2023-02-08 17:59:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-08 17:59:05 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-08 17:59:05 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-08 17:59:05 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-08 17:59:05 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1401 ms
+2023-02-08 17:59:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-08 17:59:05 [main] INFO  c.l.SpringBootLog.LogApplication - Started LogApplication in 2.787 seconds (process running for 3.393)
+2023-02-08 17:59:40 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-08 17:59:40 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-08 17:59:40 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-02-08 17:59:40 [http-nio-8080-exec-1] ERROR c.l.SpringBootLog.LogApplication - error log
+2023-02-08 17:59:43 [http-nio-8080-exec-4] ERROR c.l.SpringBootLog.LogApplication - error log
+2023-02-08 18:03:22 [main] INFO  c.l.SpringBootLog.LogApplication - Starting LogApplication using Java 19.0.1 with PID 6368 (C:\Users\hp\Downloads\SpringBootLog\target\classes started by hp in C:\Users\hp\Downloads\SpringBootLog)
+2023-02-08 18:03:22 [main] INFO  c.l.SpringBootLog.LogApplication - No active profile set, falling back to 1 default profile: "default"
+2023-02-08 18:03:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-08 18:03:24 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-08 18:03:24 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-08 18:03:24 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-08 18:03:24 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1437 ms
+2023-02-08 18:03:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-08 18:03:24 [main] INFO  c.l.SpringBootLog.LogApplication - Started LogApplication in 2.851 seconds (process running for 3.475)
+2023-02-08 18:03:29 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-08 18:03:29 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-08 18:03:29 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-08 18:04:05 [main] INFO  c.l.SpringBootLog.LogApplication - Starting LogApplication using Java 19.0.1 with PID 12980 (C:\Users\hp\Downloads\SpringBootLog\target\classes started by hp in C:\Users\hp\Downloads\SpringBootLog)
+2023-02-08 18:04:05 [main] INFO  c.l.SpringBootLog.LogApplication - No active profile set, falling back to 1 default profile: "default"
+2023-02-08 18:04:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-08 18:04:07 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-08 18:04:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-08 18:04:07 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-08 18:04:07 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1749 ms
+2023-02-08 18:04:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-08 18:04:08 [main] INFO  c.l.SpringBootLog.LogApplication - Started LogApplication in 3.388 seconds (process running for 4.359)
+2023-02-08 18:04:38 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-08 18:04:38 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-08 18:04:38 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-02-08 18:05:02 [main] INFO  c.l.SpringBootLog.LogApplication - Starting LogApplication using Java 19.0.1 with PID 13400 (C:\Users\hp\Downloads\SpringBootLog\target\classes started by hp in C:\Users\hp\Downloads\SpringBootLog)
+2023-02-08 18:05:02 [main] INFO  c.l.SpringBootLog.LogApplication - No active profile set, falling back to 1 default profile: "default"
+2023-02-08 18:05:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-08 18:05:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-08 18:05:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-08 18:05:04 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-08 18:05:04 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1337 ms
+2023-02-08 18:05:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-08 18:05:04 [main] INFO  c.l.SpringBootLog.LogApplication - Started LogApplication in 2.617 seconds (process running for 3.146)
+2023-02-08 18:05:10 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-08 18:05:10 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-08 18:05:10 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-08 18:05:48 [main] INFO  c.l.SpringBootLog.LogApplication - Starting LogApplication using Java 19.0.1 with PID 7748 (C:\Users\hp\Downloads\SpringBootLog\target\classes started by hp in C:\Users\hp\Downloads\SpringBootLog)
+2023-02-08 18:05:48 [main] INFO  c.l.SpringBootLog.LogApplication - No active profile set, falling back to 1 default profile: "default"
+2023-02-08 18:05:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-08 18:05:49 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-08 18:05:49 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-08 18:05:49 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-08 18:05:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1337 ms
+2023-02-08 18:05:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-08 18:05:50 [main] INFO  c.l.SpringBootLog.LogApplication - Started LogApplication in 2.644 seconds (process running for 3.223)
+2023-02-08 18:05:58 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-08 18:05:58 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-08 18:05:58 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-08 18:07:11 [main] INFO  c.l.SpringBootLog.LogApplication - Starting LogApplication using Java 19.0.1 with PID 8976 (C:\Users\hp\Downloads\SpringBootLog\target\classes started by hp in C:\Users\hp\Downloads\SpringBootLog)
+2023-02-08 18:07:11 [main] INFO  c.l.SpringBootLog.LogApplication - No active profile set, falling back to 1 default profile: "default"
+2023-02-08 18:07:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-08 18:07:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-08 18:07:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-08 18:07:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-08 18:07:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1587 ms
+2023-02-08 18:07:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-08 18:07:13 [main] INFO  c.l.SpringBootLog.LogApplication - Started LogApplication in 2.83 seconds (process running for 3.369)
+2023-02-08 18:07:38 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-08 18:07:38 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-08 18:07:38 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-02-08 18:07:38 [http-nio-8080-exec-1] ERROR c.l.SpringBootLog.LogApplication - error log
+2023-02-08 18:08:10 [main] INFO  c.l.SpringBootLog.LogApplication - Starting LogApplication using Java 19.0.1 with PID 13568 (C:\Users\hp\Downloads\SpringBootLog\target\classes started by hp in C:\Users\hp\Downloads\SpringBootLog)
+2023-02-08 18:08:10 [main] INFO  c.l.SpringBootLog.LogApplication - No active profile set, falling back to 1 default profile: "default"
+2023-02-08 18:08:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-08 18:08:11 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-08 18:08:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-08 18:08:11 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-08 18:08:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1356 ms
+2023-02-08 18:08:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-08 18:08:12 [main] INFO  c.l.SpringBootLog.LogApplication - Started LogApplication in 2.613 seconds (process running for 3.144)
+2023-02-08 18:08:29 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-08 18:08:29 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-08 18:08:29 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-08 18:08:29 [http-nio-8080-exec-1] ERROR c.l.SpringBootLog.LogApplication - error log
+2023-02-08 18:08:30 [http-nio-8080-exec-2] ERROR c.l.SpringBootLog.LogApplication - error log
+2023-02-08 18:08:30 [http-nio-8080-exec-3] ERROR c.l.SpringBootLog.LogApplication - error log
+2023-02-08 18:08:30 [http-nio-8080-exec-4] ERROR c.l.SpringBootLog.LogApplication - error log
+2023-02-08 18:08:31 [http-nio-8080-exec-5] ERROR c.l.SpringBootLog.LogApplication - error log
+2023-02-08 18:08:31 [http-nio-8080-exec-6] ERROR c.l.SpringBootLog.LogApplication - error log
+2023-02-08 18:08:31 [http-nio-8080-exec-7] ERROR c.l.SpringBootLog.LogApplication - error log
